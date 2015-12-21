@@ -33,5 +33,19 @@
     "win",
     "win32",
     "windows"
-  ]
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "is-absolute",
+        "is-glob",
+        "is-relative",
+        "isobject",
+        "window-size"
+      ]
+    },
+    "plugins": [
+      "gulp-format-md"
+    ]
+  }
 }

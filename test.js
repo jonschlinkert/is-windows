@@ -1,13 +1,6 @@
-/*!
- * is-windows <https://github.com/jonschlinkert/is-windows>
- *
- * Copyright (c) 2015, Jon Schlinkert.
- * Licensed under the MIT license.
- */
-
 'use strict';
 
-/* deps: mocha */
+require('mocha');
 var assert = require('assert');
 var isWindows = require('./');
 
