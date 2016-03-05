@@ -17,6 +17,6 @@
     if (typeof process === 'undefined' || !process) {
       return false;
     }
-    return process.platform === 'win32';
+    return /^win/.test(process.platform);
   }());
 }));
