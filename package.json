@@ -1,7 +1,7 @@
 {
   "name": "is-windows",
   "description": "Returns true if the platform is windwows.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/is-windows",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/is-windows",
@@ -20,6 +20,7 @@
     "test": "mocha"
   },
   "devDependencies": {
+    "gulp-format-md": "^0.1.9",
     "mocha": "*"
   },
   "keywords": [
@@ -35,6 +36,14 @@
     "windows"
   ],
   "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
     "related": {
       "list": [
         "is-absolute",
@@ -44,8 +53,11 @@
         "window-size"
       ]
     },
-    "plugins": [
-      "gulp-format-md"
+    "lint": {
+      "reflinks": true
+    },
+    "reflinks": [
+      "verb"
     ]
   }
 }
