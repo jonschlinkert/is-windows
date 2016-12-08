@@ -1,7 +1,7 @@
 {
   "name": "is-windows",
   "description": "Returns true if the platform is windwows.",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/is-windows",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/is-windows",
@@ -25,9 +25,12 @@
   },
   "keywords": [
     "check",
+    "cywin",
     "is",
     "is-windows",
     "nix",
+    "operating system",
+    "os",
     "platform",
     "process",
     "unix",
