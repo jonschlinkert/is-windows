@@ -1,5 +1,5 @@
-/*! is-windows v0.2.0 | MIT LICENSE (c) 2015 | https://github.com/jonschlinkert/is-windows */
-(function (root, factory) {
+/*! is-windows v1.0.0 | MIT LICENSE (c) 2015-2016 | https://github.com/jonschlinkert/is-windows */
+(function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD
     define(factory);
@@ -10,7 +10,7 @@
     // Browser
     root.isWindows = factory;
   }
-}(this, function () {
+}(this, function() {
   'use strict';
 
   return (function isWindows() {
