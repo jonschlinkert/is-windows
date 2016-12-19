@@ -1,6 +1,6 @@
 # is-windows [![NPM version](https://img.shields.io/npm/v/is-windows.svg?style=flat)](https://www.npmjs.com/package/is-windows) [![NPM monthly downloads](https://img.shields.io/npm/dm/is-windows.svg?style=flat)](https://npmjs.org/package/is-windows)  [![NPM total downloads](https://img.shields.io/npm/dt/is-windows.svg?style=flat)](https://npmjs.org/package/is-windows) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/is-windows.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/is-windows)
 
-> Returns true if the platform is windwows.
+> Returns true if the platform is Windows.
 
 ## Install
 
