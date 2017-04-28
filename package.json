@@ -1,6 +1,6 @@
 {
   "name": "is-windows",
-  "description": "Returns true if the platform is windwows.",
+  "description": "Returns true if the platform is windows.",
   "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/is-windows",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
