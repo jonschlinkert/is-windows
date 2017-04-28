@@ -4,6 +4,11 @@
   "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/is-windows",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "contributors": [
+    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
+    "Simen Bekkhus <sbekkhus91@gmail.com> (https://github.com/SimenB)",
+    "刘祺 <gucong@gmail.com> (gucong.co.cc)"
+  ],
   "repository": "jonschlinkert/is-windows",
   "bugs": {
     "url": "https://github.com/jonschlinkert/is-windows/issues"
