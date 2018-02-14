@@ -1,13 +1,13 @@
 {
   "name": "is-windows",
-  "description": "Returns true if the platform is windows.",
+  "description": "Returns true if the platform is windows. UMD module, works with node.js, commonjs, browser, AMD, electron, etc.",
   "version": "1.0.1",
   "homepage": "https://github.com/jonschlinkert/is-windows",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
-    "Jon Schlinkert <jon.schlinkert@sellside.com> (http://twitter.com/jonschlinkert)",
-    "Simen Bekkhus <sbekkhus91@gmail.com> (https://github.com/SimenB)",
-    "刘祺 <gucong@gmail.com> (gucong.co.cc)"
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
+    "Simen Bekkhus (https://github.com/SimenB)",
+    "刘祺 (gucong.co.cc)"
   ],
   "repository": "jonschlinkert/is-windows",
   "bugs": {
