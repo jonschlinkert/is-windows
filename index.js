@@ -5,20 +5,20 @@
     define(factory);
   } else if (typeof exports === 'object') {
     // Node.js
-    module.exports = factory;
+    module.exports = factory();
   } else {
     // Browser
-    root.isWindows = factory;
+    root.isWindows = factory();
   }
 }(this, function() {
   'use strict';
 
-  return (function isWindows() {
+  return function isWindows() {
     if (typeof process === 'undefined' || !process) {
       return false;
     }
     return process.platform === 'win32' ||
     process.env.OSTYPE === 'cygwin' ||
     process.env.OSTYPE === 'msys';
-  }());
+  };
 }));
