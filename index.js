@@ -22,6 +22,15 @@
 })(function() {
   'use strict';
   return function isWindows() {
-    return process && (process.platform === 'win32' || /^(msys|cygwin)$/.test(process.env.OSTYPE));
+    // eslint-disable-next-line no-console
+    console.warn([
+      '*****',
+      '`is-windows` is deprecated for being a bad security:functionality trade-off.',
+      'Seriously.  It\'s a one-liner.  Just paste the code in a file; you did that',
+      'for the example anyway; this is just 80 more easy-to-read bytes.',
+      'Check out the README.md for details.',
+      '*****'
+    ].join('\n'));
+    return typeof process === 'object' && (process.platform === 'win32' || /^(msys|cygwin)$/.test(process.env.OSTYPE));
   };
 });
